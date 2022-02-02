@@ -1,0 +1,15 @@
+E:\Project\SimpleIapp\SimpleIapp\bin\Debug\netstandard2.0\SimpleIapp.deps.json
+E:\Project\SimpleIapp\SimpleIapp\bin\Debug\netstandard2.0\SimpleIapp.dll
+E:\Project\SimpleIapp\SimpleIapp\bin\Debug\netstandard2.0\ref\SimpleIapp.dll
+E:\Project\SimpleIapp\SimpleIapp\bin\Debug\netstandard2.0\SimpleIapp.pdb
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.csproj.AssemblyReference.cache
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.AssemblyInfoInputs.cache
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.AssemblyInfo.cs
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.csproj.CoreCompileInputs.cache
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.dll
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\ref\SimpleIapp.dll
+E:\Project\SimpleIapp\SimpleIapp\obj\Debug\netstandard2.0\SimpleIapp.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleIapp.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="SIMPLE INTEREST" FontSize="Title"  BackgroundColor="Green" HorizontalTextAlignment="Center"  TextColor="White" VerticalTextAlignment="Center"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="PRINCIPAL AMOUNT($)" TextColor="Black" FontSize="Medium"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Start" />
+
+        <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Placeholder ="Enter Principal Amount" x:Name="EditorPrincipalAmount" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"  FontSize="Default" Keyboard="Numeric" />
+       
+        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="NUMBER OF YEARS" FontSize="Medium"  HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="Black"/>
+        <Editor Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"  Placeholder = "Enter number of years" x:Name="EditorYear" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Keyboard="Numeric"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="RATE OF INTEREST(%)" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="Black"/>
+        <Editor Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Placeholder = "Enter interest rate" x:Name="EditorInterestRate" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Keyboard="Numeric"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="INTEREST AMOUNT($)" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="Black"/>
+        <Editor Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" x:Name="Editoramount" IsReadOnly="True" FontSize="Default" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Text="CALCULATE"   FontSize="Medium" BackgroundColor="LightBlue" x:Name="calcButton" HeightRequest="60" WidthRequest="400" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="DarkBlue"/>
+        <Button Grid.Row="5" Grid.Column="1" Text="CLEAR"  BackgroundColor="LightBlue" x:Name="clearButton"  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" HeightRequest="60" WidthRequest="300" FontSize="Medium" TextColor="DarkBlue"/>
+    </Grid>
+
+</ContentPage>
